@@ -18,7 +18,7 @@ fun App(){
         Scaffold(modifier = Modifier.fillMaxSize()) {innerPadding ->
             Column(Modifier.padding(innerPadding)) {
 
-                Text(text = "我已经学会使用Git")
+                Text(text = "我正在学习Git")
             }
         }
     }
