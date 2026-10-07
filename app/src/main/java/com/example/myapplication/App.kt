@@ -17,6 +17,7 @@ fun App(){
     MyApplicationTheme{
         Scaffold(modifier = Modifier.fillMaxSize()) {innerPadding ->
             Column(Modifier.padding(innerPadding)) {
+
                 Text(text = "我以及学会使用Git")
             }
         }
