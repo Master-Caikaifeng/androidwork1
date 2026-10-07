@@ -28,6 +28,9 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("MainActivity", "MainActivity 已启动")
+        Log.d("Bootcamp", "准备显示页面")
+        Log.i("Bootcamp", "页面显示完成")
+        Log.w("Bootcamp", "这是一条练习警告")
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
